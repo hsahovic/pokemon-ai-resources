@@ -1,7 +1,6 @@
 ---
 title: "Pokémon AI Resources"
 css: https://cdn.simplecss.org/simple.min.css
-toc: true
 ---
 
 This page is dedicated to the collaborative development and sharing of tools, data, and strategies for creating advanced AI for Pokémon battling. This problem require strategic decision-making in an environment with incomplete information. Team-building is a separate but related problem, offering a separate set of puzzles to solve.
@@ -26,4 +25,4 @@ This page is dedicated to the collaborative development and sharing of tools, da
 
 ## How to Contribute
 
-Your insights and contributions can help grow this hub. If you have any resources, tools, or ideas you think should be featured here, feel free to open an issue or submit a pull request on our repository.
+Your insights and contributions can help grow this hub. If you have any resources, tools, or ideas you think should be featured here, feel free to [open an issue](https://github.com/hsahovic/pokemon-ai-resources/issues) or [submit a pull request](https://github.com/hsahovic/pokemon-ai-resources/pulls) on [our repository](https://github.com/hsahovic/pokemon-ai-resources).
