@@ -1,4 +1,4 @@
-SOURCES := $(wildcard *.md)
+SOURCES := $(filter-out README.md, $(wildcard *.md))
 TARGETS := $(patsubst %.md,docs/%.html,$(SOURCES))
 
 all: $(TARGETS)
