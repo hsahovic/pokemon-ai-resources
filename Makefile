@@ -1,11 +1,11 @@
 SOURCES := $(wildcard *.md)
-TARGETS := $(patsubst %.md,build/%.html,$(SOURCES))
+TARGETS := $(patsubst %.md,docs/%.html,$(SOURCES))
 
 all: $(TARGETS)
 
-build/%.html: %.md
-	@mkdir -p build
+docs/%.html: %.md
+	@mkdir -p docs
 	pandoc -s $< -o $@
 
 clean:
-	rm -rf build
+	rm -rf docs
